@@ -1,0 +1,15 @@
+<!--在文本框中输入100以内的数字，提交给Servlet进行处理，得到累加和，把结果存储到request中，再转发到另一个显示信息的Servlet中将结果取出并显示。-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>求1-100以内从1到某个具体数字的累加和</title>
+</head>
+<body>
+<form action="/Myjsp/showSum">
+        <input type="number" name="num" placeholder="请输入100以内的数字"  /> <br /><br />
+        <input type="submit" value="求累加和" />  
+</form>
+
+</body>
+</html>
